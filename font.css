@@ -1,19 +1,25 @@
-@media (min-width: 320px) {
+  @media (min-width: 320px)  {
   .title {
-    font-size: 16px; 
+    font-size: 16px;
     }
-     .article {
-     font-size: 11px;
+   .article {
+    font-size: 11px;
      }
   }
   
-.title {
+  .title  {
   color: orange;
-  font-size: 32px;
+  }
   
-}
-.article {
+  .article {
   color: green;
-  font-size: 22px;
-  
-}
+  }
+ 
+ @media (min-width: 768px) {
+   .title {
+    font-size: 32px;
+    }
+     .article {
+     font-size: 22px;
+     }
+     }
